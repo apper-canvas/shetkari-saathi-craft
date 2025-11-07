@@ -10,8 +10,6 @@ const AddCrop = lazy(() => import("@/components/pages/AddCrop"))
 const Livestock = lazy(() => import("@/components/pages/Livestock"))
 const LivestockDetails = lazy(() => import("@/components/pages/LivestockDetails"))
 const AddLivestock = lazy(() => import("@/components/pages/AddLivestock"))
-const Finance = lazy(() => import("@/components/pages/Finance"))
-const AddTransaction = lazy(() => import("@/components/pages/AddTransaction"))
 const More = lazy(() => import("@/components/pages/More"))
 const Irrigation = lazy(() => import("@/components/pages/Irrigation"))
 const MarketPrices = lazy(() => import("@/components/pages/MarketPrices"))
@@ -92,20 +90,6 @@ const mainRoutes = [
     )
   },
   {
-    path: "finance",
-    element: (
-      <Suspense fallback={<LoadingFallback />}>
-        <Finance />
-      </Suspense>
-    )
-  },
-  {
-    path: "add-transaction",
-    element: (
-      <Suspense fallback={<LoadingFallback />}>
-        <AddTransaction />
-      </Suspense>
-    )
   },
   {
     path: "more",
