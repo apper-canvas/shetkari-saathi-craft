@@ -87,9 +87,7 @@ const mainRoutes = [
       <Suspense fallback={<LoadingFallback />}>
         <AddLivestock />
       </Suspense>
-    )
-  },
-  {
+)
   },
   {
     path: "more",
