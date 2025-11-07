@@ -67,9 +67,9 @@ function AddLivestock() {
         weight: parseFloat(formData.weight) || 0,
         age: calculateAge(formData.birthDate),
         addedDate: new Date().toISOString()
-      }
+}
       
-      await livestockService.addLivestock(livestockData)
+      await livestockService.create(livestockData)
       toast.success('पशुधन यशस्वीरित्या जोडले गेले!')
       navigate('/livestock')
     } catch (error) {
