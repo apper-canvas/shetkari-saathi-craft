@@ -1,0 +1,47 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Noto Sans Devanagari', sans-serif;
+  }
+  
+  .font-display {
+    font-family: 'Tiro Devanagari Marathi', serif;
+  }
+}
+
+/* Toast customization */
+.Toastify__toast {
+  border-radius: 8px;
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #43A047, #66BB6A);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #E53935, #EF5350);
+  color: white;
+}
+
+.Toastify__toast--warning {
+  background: linear-gradient(135deg, #FB8C00, #FFA726);
+  color: white;
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+  padding: 4px;
+}
+
+/* Devanagari text optimization */
+.devanagari-text {
+  font-feature-settings: "deva" 1;
+  text-rendering: optimizeLegibility;
+}

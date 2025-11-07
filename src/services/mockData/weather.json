@@ -1,0 +1,60 @@
+{
+  "temperature": 32,
+  "condition": "partly cloudy",
+  "location": "पुणे, महाराष्ट्र",
+  "humidity": 75,
+  "windSpeed": 12,
+  "rainfall": 5.2,
+  "lastUpdated": "2024-07-23T08:30:00Z",
+  "forecast": [
+    {
+      "date": "2024-07-23",
+      "high": 32,
+      "low": 24,
+      "condition": "partly cloudy",
+      "rainfall": 5.2
+    },
+    {
+      "date": "2024-07-24",
+      "high": 30,
+      "low": 23,
+      "condition": "rainy",
+      "rainfall": 15.8
+    },
+    {
+      "date": "2024-07-25",
+      "high": 28,
+      "low": 22,
+      "condition": "cloudy",
+      "rainfall": 8.5
+    },
+    {
+      "date": "2024-07-26",
+      "high": 31,
+      "low": 24,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    {
+      "date": "2024-07-27",
+      "high": 33,
+      "low": 25,
+      "condition": "sunny",
+      "rainfall": 0
+    },
+    {
+      "date": "2024-07-28",
+      "high": 35,
+      "low": 26,
+      "condition": "hot",
+      "rainfall": 0
+    },
+    {
+      "date": "2024-07-29",
+      "high": 29,
+      "low": 23,
+      "condition": "thunderstorm",
+      "rainfall": 25.4
+    }
+  ]
+}

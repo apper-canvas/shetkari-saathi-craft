@@ -1,0 +1,79 @@
+[
+  {
+    "Id": 1,
+    "commodity": "धान",
+    "variety": "बासमती",
+    "price": 2850,
+    "unit": "क्विंटल",
+    "market": "पुणे मंडी",
+    "date": "2024-07-22",
+    "trend": "up",
+    "change": 5.2
+  },
+  {
+    "Id": 2,
+    "commodity": "गहू",
+    "variety": "लोक-१",
+    "price": 2250,
+    "unit": "क्विंटल",
+    "market": "पुणे मंडी",
+    "date": "2024-07-22",
+    "trend": "stable",
+    "change": 0
+  },
+  {
+    "Id": 3,
+    "commodity": "कापूस",
+    "variety": "मध्यम स्टेपल",
+    "price": 6800,
+    "unit": "क्विंटल",
+    "market": "अकोला मंडी",
+    "date": "2024-07-22",
+    "trend": "down",
+    "change": -3.5
+  },
+  {
+    "Id": 4,
+    "commodity": "मूग",
+    "variety": "विराट",
+    "price": 8500,
+    "unit": "क्विंटल",
+    "market": "नागपूर मंडी",
+    "date": "2024-07-22",
+    "trend": "up",
+    "change": 8.7
+  },
+  {
+    "Id": 5,
+    "commodity": "ऊस",
+    "variety": "को ८६०३२",
+    "price": 280,
+    "unit": "टन",
+    "market": "कोल्हापूर मंडी",
+    "date": "2024-07-22",
+    "trend": "up",
+    "change": 2.1
+  },
+  {
+    "Id": 6,
+    "commodity": "दूध",
+    "variety": "गाईचे",
+    "price": 35,
+    "unit": "लिटर",
+    "market": "स्थानिक डेअरी",
+    "date": "2024-07-22",
+    "trend": "stable",
+    "change": 0
+  },
+  {
+    "Id": 7,
+    "commodity": "दूध",
+    "variety": "म्हशीचे",
+    "price": 45,
+    "unit": "लिटर",
+    "market": "स्थानिक डेअरी",
+    "date": "2024-07-22",
+    "trend": "up",
+    "change": 2.3
+  }
+]

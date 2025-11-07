@@ -1,0 +1,102 @@
+[
+  {
+    "Id": 1,
+    "type": "income",
+    "amount": 15000,
+    "category": "दूध विक्री",
+    "subcategory": "दैनिक दूध",
+    "date": "2024-07-20",
+    "description": "महिन्याची दूध विक्री",
+    "relatedTo": "livestock"
+  },
+  {
+    "Id": 2,
+    "type": "expense",
+    "amount": 3500,
+    "category": "बीयाणे",
+    "subcategory": "धान बीयाणे",
+    "date": "2024-06-10",
+    "description": "बासमती धान बीयाणे खरेदी",
+    "relatedTo": "crops"
+  },
+  {
+    "Id": 3,
+    "type": "expense",
+    "amount": 2800,
+    "category": "खत",
+    "subcategory": "युरिया",
+    "date": "2024-06-15",
+    "description": "धानासाठी युरिया खत",
+    "relatedTo": "crops"
+  },
+  {
+    "Id": 4,
+    "type": "income",
+    "amount": 45000,
+    "category": "पीक विक्री",
+    "subcategory": "मूग",
+    "date": "2024-06-01",
+    "description": "मूगाची कापणी विकली",
+    "relatedTo": "crops"
+  },
+  {
+    "Id": 5,
+    "type": "expense",
+    "amount": 1200,
+    "category": "पशु आरोग्य",
+    "subcategory": "लसीकरण",
+    "date": "2024-07-01",
+    "description": "गायींचे लसीकरण",
+    "relatedTo": "livestock"
+  },
+  {
+    "Id": 6,
+    "type": "expense",
+    "amount": 800,
+    "category": "इंधन",
+    "subcategory": "डीझेल",
+    "date": "2024-07-15",
+    "description": "ट्रॅक्टरसाठी डीझेल",
+    "relatedTo": "general"
+  },
+  {
+    "Id": 7,
+    "type": "income",
+    "amount": 8500,
+    "category": "दूध विक्री",
+    "subcategory": "दैनिक दूध",
+    "date": "2024-06-30",
+    "description": "जूनचे दूध पैसे",
+    "relatedTo": "livestock"
+  },
+  {
+    "Id": 8,
+    "type": "expense",
+    "amount": 2200,
+    "category": "कीडनाशके",
+    "subcategory": "जैविक कीडनाशक",
+    "date": "2024-07-05",
+    "description": "कापसासाठी जैविक कीडनाशक",
+    "relatedTo": "crops"
+  },
+  {
+    "Id": 9,
+    "type": "expense",
+    "amount": 1500,
+    "category": "पशु आहार",
+    "subcategory": "दाणामिश्रण",
+    "date": "2024-07-10",
+    "description": "गुरांसाठी दाणामिश्रण",
+    "relatedTo": "livestock"
+  },
+  {
+    "Id": 10,
+    "type": "income",
+    "amount": 12000,
+    "category": "सरकारी अनुदान",
+    "subcategory": "PM-KISAN",
+    "date": "2024-07-18",
+    "description": "PM-KISAN योजनेचा हप्ता",
+    "relatedTo": "government"
+  }
+]

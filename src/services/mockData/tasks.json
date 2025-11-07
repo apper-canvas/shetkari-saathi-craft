@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "title": "धान पिकांना पाणी द्या",
+    "description": "सकाळी ६ वाजता धान पिकांना पाणी द्या",
+    "category": "irrigation",
+    "dueDate": "2024-07-23T06:00:00Z",
+    "priority": "high",
+    "completed": false,
+    "relatedId": "1"
+  },
+  {
+    "Id": 2,
+    "title": "गंगा गायीचे दूध काढा",
+    "description": "सकाळी आणि संध्याकाळी दूध काढणे",
+    "category": "livestock",
+    "dueDate": "2024-07-23T05:30:00Z",
+    "priority": "high",
+    "completed": true,
+    "relatedId": "1"
+  },
+  {
+    "Id": 3,
+    "title": "कापसावर कीडनाशक फवारा",
+    "description": "गुलाबी इळ्यासाठी जैविक कीडनाशक फवारणे",
+    "category": "crop",
+    "dueDate": "2024-07-24T07:00:00Z",
+    "priority": "medium",
+    "completed": false,
+    "relatedId": "3"
+  },
+  {
+    "Id": 4,
+    "title": "म्हशींना लसीकरण करा",
+    "description": "राजा आणि बळी म्हशींना FMD लसीकरण",
+    "category": "livestock",
+    "dueDate": "2024-07-25T10:00:00Z",
+    "priority": "high",
+    "completed": false,
+    "relatedId": "2"
+  },
+  {
+    "Id": 5,
+    "title": "ऊस पिकाची निराणी करा",
+    "description": "ऊस पिकामधील तणांची निराणी करणे",
+    "category": "crop",
+    "dueDate": "2024-07-26T08:00:00Z",
+    "priority": "medium",
+    "completed": false,
+    "relatedId": "5"
+  },
+  {
+    "Id": 6,
+    "title": "पशुधनासाठी आहार खरेदी",
+    "description": "गुरांसाठी दाणामिश्रण आणि सूखे आहार खरेदी",
+    "category": "livestock",
+    "dueDate": "2024-07-27T11:00:00Z",
+    "priority": "medium",
+    "completed": false,
+    "relatedId": ""
+  },
+  {
+    "Id": 7,
+    "title": "गहूचे बीयाणे तयार करा",
+    "description": "पुढील हंगामासाठी गहूचे बीयाणे निवडणे आणि साठवणे",
+    "category": "crop",
+    "dueDate": "2024-07-28T09:00:00Z",
+    "priority": "low",
+    "completed": false,
+    "relatedId": "2"
+  },
+  {
+    "Id": 8,
+    "title": "दूध विक्रीचे हिशोब करा",
+    "description": "महिन्याच्या दूध विक्रीचे हिशोब आणि पैसे गोळा करा",
+    "category": "general",
+    "dueDate": "2024-07-30T16:00:00Z",
+    "priority": "high",
+    "completed": false,
+    "relatedId": ""
+  }
+]

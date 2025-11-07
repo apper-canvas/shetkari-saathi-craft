@@ -1,0 +1,175 @@
+[
+  {
+    "Id": 1,
+    "name": "गंगा",
+    "type": "गाय",
+    "breed": "गिर",
+    "birthDate": "2021-03-15",
+    "gender": "मादी",
+    "healthRecords": [
+      {
+        "date": "2024-07-01",
+        "issue": "दूध कमी होणे",
+        "treatment": "कॅल्शियम सप्लीमेंट दिले",
+        "veterinarian": "डॉ. शर्मा"
+      },
+      {
+        "date": "2024-06-15",
+        "issue": "नियमित तपासणी",
+        "treatment": "सगळे ठीक",
+        "veterinarian": "डॉ. पाटील"
+      }
+    ],
+    "vaccinations": [
+      {
+        "vaccine": "FMD",
+        "date": "2024-01-15",
+        "nextDue": "2024-07-15",
+        "veterinarian": "डॉ. शर्मा"
+      },
+      {
+        "vaccine": "BQ",
+        "date": "2024-02-01",
+        "nextDue": "2024-08-01",
+        "veterinarian": "डॉ. शर्मा"
+      }
+    ],
+    "breedingInfo": {
+      "lastBreeding": "2024-01-10",
+      "pregnancyStatus": "गरोदर",
+      "expectedDelivery": "2024-10-10",
+      "numberOfCalves": 3
+    },
+    "photos": []
+  },
+  {
+    "Id": 2,
+    "name": "राजा",
+    "type": "म्हैस",
+    "breed": "मुर्राह",
+    "birthDate": "2020-08-20",
+    "gender": "नर",
+    "healthRecords": [
+      {
+        "date": "2024-07-10",
+        "issue": "पायात फूट",
+        "treatment": "मलम लावले आणि विश्रांती दिली",
+        "veterinarian": "डॉ. देशमुख"
+      }
+    ],
+    "vaccinations": [
+      {
+        "vaccine": "FMD", 
+        "date": "2024-03-01",
+        "nextDue": "2024-09-01",
+        "veterinarian": "डॉ. देशमुख"
+      }
+    ],
+    "breedingInfo": {
+      "lastBreeding": "",
+      "pregnancyStatus": "",
+      "expectedDelivery": "",
+      "numberOfCalves": 0
+    },
+    "photos": []
+  },
+  {
+    "Id": 3,
+    "name": "शांता",
+    "type": "गाय",
+    "breed": "होल्स्टीन",
+    "birthDate": "2019-12-05",
+    "gender": "मादी",
+    "healthRecords": [
+      {
+        "date": "2024-06-20",
+        "issue": "नियमित तपासणी",
+        "treatment": "सगळे ठीक - दूध उत्पादन चांगले",
+        "veterinarian": "डॉ. पाटील"
+      }
+    ],
+    "vaccinations": [
+      {
+        "vaccine": "FMD",
+        "date": "2024-02-15",
+        "nextDue": "2024-08-15",
+        "veterinarian": "डॉ. पाटील"
+      },
+      {
+        "vaccine": "BQ",
+        "date": "2024-03-01",
+        "nextDue": "2024-09-01",
+        "veterinarian": "डॉ. पाटील"
+      }
+    ],
+    "breedingInfo": {
+      "lastBreeding": "2023-10-15",
+      "pregnancyStatus": "",
+      "expectedDelivery": "",
+      "numberOfCalves": 5
+    },
+    "photos": []
+  },
+  {
+    "Id": 4,
+    "name": "बळी",
+    "type": "म्हैस",
+    "breed": "जाफराबादी",
+    "birthDate": "2022-01-10",
+    "gender": "मादी",
+    "healthRecords": [
+      {
+        "date": "2024-07-05",
+        "issue": "दूध कमी",
+        "treatment": "आहारात प्रोटीन वाढवले",
+        "veterinarian": "डॉ. खान"
+      }
+    ],
+    "vaccinations": [
+      {
+        "vaccine": "FMD",
+        "date": "2024-04-01",
+        "nextDue": "2024-10-01",
+        "veterinarian": "डॉ. खान"
+      }
+    ],
+    "breedingInfo": {
+      "lastBreeding": "2024-03-01",
+      "pregnancyStatus": "गरोदर",
+      "expectedDelivery": "2024-12-01",
+      "numberOfCalves": 1
+    },
+    "photos": []
+  },
+  {
+    "Id": 5,
+    "name": "सुरेश",
+    "type": "बैल",
+    "breed": "देशी",
+    "birthDate": "2018-05-15",
+    "gender": "नर",
+    "healthRecords": [
+      {
+        "date": "2024-07-12",
+        "issue": "कामाची क्षमता कमी",
+        "treatment": "व्हिटॅमिन इंजेक्शन दिले",
+        "veterinarian": "डॉ. जोशी"
+      }
+    ],
+    "vaccinations": [
+      {
+        "vaccine": "FMD",
+        "date": "2024-01-20",
+        "nextDue": "2024-07-20",
+        "veterinarian": "डॉ. जोशी"
+      }
+    ],
+    "breedingInfo": {
+      "lastBreeding": "",
+      "pregnancyStatus": "",
+      "expectedDelivery": "",
+      "numberOfCalves": 0
+    },
+    "photos": []
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "Id": 1,
+    "name": "धान",
+    "variety": "बासमती",
+    "plantingDate": "2024-06-15",
+    "expectedHarvest": "2024-10-15",
+    "area": 2.5,
+    "unit": "एकर",
+    "stage": "फुलण्याची अवस्था",
+    "notes": [
+      {
+        "date": "2024-07-01",
+        "note": "पहिली खत टाकली",
+        "type": "fertilizer"
+      },
+      {
+        "date": "2024-07-15",
+        "note": "कीड नियंत्रण फवारणी केली",
+        "type": "pesticide"
+      }
+    ],
+    "lastWatered": "2024-07-20",
+    "irrigationSchedule": [
+      {
+        "frequency": 3,
+        "duration": 2,
+        "method": "फवारणी",
+        "nextScheduled": "2024-07-23"
+      }
+    ],
+    "photos": []
+  },
+  {
+    "Id": 2,
+    "name": "गहू",
+    "variety": "लोक-१",
+    "plantingDate": "2024-11-15",
+    "expectedHarvest": "2025-04-15",
+    "area": 3.0,
+    "unit": "एकर",
+    "stage": "बियाणे पेरणी",
+    "notes": [
+      {
+        "date": "2024-11-10",
+        "note": "जमीन तयार केली",
+        "type": "preparation"
+      }
+    ],
+    "lastWatered": "2024-11-20",
+    "irrigationSchedule": [
+      {
+        "frequency": 7,
+        "duration": 3,
+        "method": "ठिबक सिंचन",
+        "nextScheduled": "2024-11-27"
+      }
+    ],
+    "photos": []
+  },
+  {
+    "Id": 3,
+    "name": "कापूस",
+    "variety": "बी.टी. कापूस",
+    "plantingDate": "2024-05-01",
+    "expectedHarvest": "2024-12-01",
+    "area": 1.8,
+    "unit": "एकर",
+    "stage": "कापसा मोडणी",
+    "notes": [
+      {
+        "date": "2024-06-15",
+        "note": "गुलाबी इळ्याचा हल्ला आढळला",
+        "type": "pest"
+      },
+      {
+        "date": "2024-07-01",
+        "note": "जैविक कीडनाशक फवारली",
+        "type": "pesticide"
+      }
+    ],
+    "lastWatered": "2024-07-18",
+    "irrigationSchedule": [
+      {
+        "frequency": 5,
+        "duration": 2,
+        "method": "फवारणी",
+        "nextScheduled": "2024-07-23"
+      }
+    ],
+    "photos": []
+  },
+  {
+    "Id": 4,
+    "name": "मूग",
+    "variety": "विराट",
+    "plantingDate": "2024-03-01",
+    "expectedHarvest": "2024-05-30",
+    "area": 1.2,
+    "unit": "एकर",
+    "stage": "कापणी संपली",
+    "notes": [
+      {
+        "date": "2024-05-25",
+        "note": "कापणी पूर्ण झाली - ५ क्विंटल उत्पादन",
+        "type": "harvest"
+      }
+    ],
+    "lastWatered": "2024-05-20",
+    "irrigationSchedule": [
+      {
+        "frequency": 4,
+        "duration": 1,
+        "method": "फवारणी",
+        "nextScheduled": ""
+      }
+    ],
+    "photos": []
+  },
+  {
+    "Id": 5,
+    "name": "ऊस",
+    "variety": "को ८६०३२",
+    "plantingDate": "2024-02-01",
+    "expectedHarvest": "2025-01-15",
+    "area": 4.0,
+    "unit": "एकर",
+    "stage": "वाढीचा काळ",
+    "notes": [
+      {
+        "date": "2024-04-01",
+        "note": "नायट्रोजन खत दिले",
+        "type": "fertilizer"
+      },
+      {
+        "date": "2024-06-01",
+        "note": "पातळी येथील तणांची निराणी केली",
+        "type": "weeding"
+      }
+    ],
+    "lastWatered": "2024-07-19",
+    "irrigationSchedule": [
+      {
+        "frequency": 10,
+        "duration": 4,
+        "method": "ओल्या पाण्याचे सिंचन",
+        "nextScheduled": "2024-07-29"
+      }
+    ],
+    "photos": []
+  }
+]
