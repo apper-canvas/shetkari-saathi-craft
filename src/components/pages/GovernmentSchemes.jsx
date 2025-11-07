@@ -4,7 +4,7 @@ import Card from '@/components/atoms/Card';
 import Button from '@/components/atoms/Button';
 import Badge from '@/components/atoms/Badge';
 import { governmentService } from '@/services/api/governmentService';
-import LoadingFallback from '@/components/ui/Loading';
+import Loading from '@/components/ui/Loading';
 import { cn } from '@/utils/cn';
 
 const GovernmentSchemes = () => {
@@ -25,10 +25,10 @@ const GovernmentSchemes = () => {
     loadSchemes();
   }, []);
 
-  const loadSchemes = async () => {
+const loadSchemes = async () => {
     try {
       setLoading(true);
-      const data = await governmentService.getSchemes();
+      const data = await governmentService.getAll();
       setSchemes(data);
     } catch (error) {
       console.error('Failed to load schemes:', error);
@@ -67,8 +67,8 @@ const GovernmentSchemes = () => {
     );
   };
 
-  if (loading) {
-    return <LoadingFallback />;
+if (loading) {
+    return <Loading />;
   }
 
   return (
