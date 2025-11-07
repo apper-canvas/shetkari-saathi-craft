@@ -25,10 +25,10 @@ const MarketPrices = () => {
     loadMarketPrices();
   }, []);
 
-  const loadMarketPrices = async () => {
+const loadMarketPrices = async () => {
     try {
       setLoading(true);
-      const data = await marketService.getMarketPrices();
+      const data = await marketService.getAll();
       setMarketData(data);
       setLastUpdated(new Date());
     } catch (error) {
